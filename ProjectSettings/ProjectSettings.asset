@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 9cf6ee7c9deff5b4d9ace88247b0ee48
+  productGUID: 1569ed98683f5d846b28985884955180
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -794,14 +794,14 @@ PlayerSettings:
     Standalone: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 603
+  metroPackageName: GAM603
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 603
+  metroApplicationDescription: GAM603
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -872,7 +872,7 @@ PlayerSettings:
   cloudProjectId: 1ca44bd2-97d0-42d7-be90-8033d1e85d3c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: 603
   organizationId: kristenl21839
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
