@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d41d85146addb0b49b6d5a08e639f133
+guid: 11dd05d3754a37d4b9746314dd106b0f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Grass_Dirt Tiles + wood
+  - name: Spring_Ground
     originalName: 
     pivot: {x: 0.3, y: 0.16000001}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 320
       height: 200
-    spriteID: 986ae4cc45b7bc84288fe0af4590fb04
+    spriteID: 747325fab4649764c8e6bdb409b5f02a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,20 +144,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -476173845
-    name: Grass_Dirt Tiles + wood
+    guid: 1453235131
+    name: Spring_Ground
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Grass_Dirt Tiles + wood
+    - name: Spring_Ground
       frameIndex: 0
       cellRect:
         x: 0
         y: -32
         width: 320
         height: 200
-      spriteId: 986ae4cc45b7bc84288fe0af4590fb04
+      spriteId: 747325fab4649764c8e6bdb409b5f02a
     linkedCells: []
     parentIndex: -1
   platformSettings: []
