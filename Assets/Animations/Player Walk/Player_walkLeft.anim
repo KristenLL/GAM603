@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GrasslandsHornsBlueWalkWest
+  m_Name: Player_walkLeft
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,26 +22,28 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -948137914, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.125
+    - time: 0.1
       value: {fileID: -148585990, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.25
+    - time: 0.18333334
       value: {fileID: 1156445411, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.375
+    - time: 0.28333333
       value: {fileID: -350261870, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.5
+    - time: 0.36666667
       value: {fileID: 747185728, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.625
+    - time: 0.46666667
       value: {fileID: -2138497735, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.75
+    - time: 0.56666666
       value: {fileID: 979654754, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
-    - time: 0.875
+    - time: 0.65
       value: {fileID: 1776633341, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
+    - time: 0.75
+      value: {fileID: -948137914, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 8
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -66,12 +68,13 @@ AnimationClip:
     - {fileID: -2138497735, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
     - {fileID: 979654754, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
     - {fileID: 1776633341, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
+    - {fileID: -948137914, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.76666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

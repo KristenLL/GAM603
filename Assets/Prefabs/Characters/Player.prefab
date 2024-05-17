@@ -62,10 +62,10 @@ MonoBehaviour:
   CharacterDimension: 0
   CharacterType: 0
   PlayerID: Player1
-  CharacterAnimator: {fileID: 0}
-  UseDefaultMecanim: 1
+  CharacterAnimator: {fileID: 5022211019600904243}
+  UseDefaultMecanim: 0
   RunAnimatorSanityChecks: 0
-  DisableAnimatorLogs: 1
+  DisableAnimatorLogs: 0
   CharacterModel: {fileID: 0}
   CharacterHealth: {fileID: 0}
   SendStateChangeEvents: 1
@@ -515,6 +515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3809301458367548019}
   - component: {fileID: 5009080047429338131}
+  - component: {fileID: 5022211019600904243}
   m_Layer: 10
   m_Name: player sprite
   m_TagString: Untagged
@@ -578,7 +579,7 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1373845791, guid: a81ea03a23844064a95289664097574a, type: 3}
+  m_Sprite: {fileID: 2085919657, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -589,6 +590,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5022211019600904243
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6142785246042280482}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: e16118d7815d24f47ae19a58814c5040, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8061432090846349057
 GameObject:
   m_ObjectHideFlags: 0
