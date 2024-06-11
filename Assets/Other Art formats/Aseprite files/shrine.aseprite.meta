@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9e217c99338ad0439ae276d84a5435e
+guid: 4a3503566e08e2d43b317cd6759eaabd
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: greenhouse
+  - name: shrine
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5797101, y: -0.1409396}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 118
-      height: 99
-    spriteID: f0eb6bed599c20145bdf9c3fd86d6a02
+      width: 138
+      height: 149
+    spriteID: cce0bcc0687186e4ea556d532fcb238b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,24 +144,24 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1568963611
-    name: greenhouse
+    guid: 1409925123
+    name: shrine
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: greenhouse
+    - name: shrine
       frameIndex: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 118
-        height: 99
-      spriteId: f0eb6bed599c20145bdf9c3fd86d6a02
+        x: 16
+        y: 21
+        width: 138
+        height: 149
+      spriteId: cce0bcc0687186e4ea556d532fcb238b
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 118, y: 99}
+  canvasSize: {x: 192, y: 224}
