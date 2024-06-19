@@ -10119,7 +10119,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  RunSpeed: 7
+  RunSpeed: 5.5
   AutoRun: 0
   AutoRunThreshold: 0.6
 --- !u!114 &114495819129293066
@@ -10203,8 +10203,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 2867199117945192038, guid: b3a6778c67100014592e19e60d07c3f8,
-    type: 3}
+  InitialWeapon: {fileID: 0}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
   WeaponAttachment: {fileID: 4515663194721164}
