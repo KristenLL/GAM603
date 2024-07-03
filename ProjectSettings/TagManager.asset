@@ -52,6 +52,9 @@ TagManager:
   - name: Ground
     uniqueID: 2296623839
     locked: 0
+  - name: Plants
+    uniqueID: 1023534959
+    locked: 0
   - name: Foreground
     uniqueID: 1603220759
     locked: 0
