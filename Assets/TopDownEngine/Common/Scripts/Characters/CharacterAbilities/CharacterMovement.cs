@@ -96,6 +96,7 @@ namespace MoreMountains.TopDownEngine
 		protected Vector2 _lerpedInput = Vector2.zero;
 		protected float _acceleration = 0f;
 		protected bool _walkParticlesPlaying = false;
+		public bool isMoving = true;
 
 		protected const string _speedAnimationParameterName = "Speed";
 		protected const string _walkingAnimationParameterName = "Walking";
@@ -185,11 +186,14 @@ namespace MoreMountains.TopDownEngine
 			{
 				_horizontalMovement = _horizontalInput;
 				_verticalMovement = _verticalInput;
+				isMoving = true;
+
 			}
 			else
 			{
 				_horizontalMovement = 0f;
 				_verticalMovement = 0f;
+				isMoving = false;
 			}	
 		}
 

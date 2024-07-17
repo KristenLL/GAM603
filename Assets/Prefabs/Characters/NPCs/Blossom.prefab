@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 5451061592266258867}
   - component: {fileID: 660476777890198551}
   - component: {fileID: 3139194556831465109}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: blossom_walk_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 47421343
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 5595330, guid: a50d92c3f7c837a428e86d83dc35ed40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -107,7 +107,7 @@ SortingGroup:
   m_GameObject: {fileID: 3743802097627682089}
   m_Enabled: 1
   m_SortingLayerID: 47421343
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!50 &4928137863539912208
@@ -389,6 +389,7 @@ MonoBehaviour:
   WalkParticles: []
   TouchTheGroundParticles: []
   TouchTheGroundSfx: []
+  isMoving: 1
 --- !u!114 &4627490364473745706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,7 +545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5003325422898751750}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: Blossom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
