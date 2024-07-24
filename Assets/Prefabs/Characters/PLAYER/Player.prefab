@@ -9752,7 +9752,7 @@ Transform:
   m_GameObject: {fileID: 1358283918792732}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.625, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9801,7 +9801,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 47421343
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 2085919657, guid: 624a4a21e7de5764397b37866dfc0984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9859,6 +9859,7 @@ GameObject:
   - component: {fileID: 114104414726605804}
   - component: {fileID: 114171358364461030}
   - component: {fileID: 114499223069276626}
+  - component: {fileID: 5825355385229830860}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -9947,8 +9948,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: 0.4596825}
-  m_Size: {x: 0.51708317, y: 0.7490594}
+  m_Offset: {x: 0.00000047683716, y: -0.15393922}
+  m_Size: {x: 0.51708317, y: 0.71515757}
   m_Direction: 0
 --- !u!210 &210286107803106362
 SortingGroup:
@@ -9959,7 +9960,7 @@ SortingGroup:
   m_GameObject: {fileID: 1498750440386690}
   m_Enabled: 1
   m_SortingLayerID: 47421343
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!114 &114923167933730068
@@ -10095,6 +10096,7 @@ MonoBehaviour:
   - {fileID: 198815970869915398}
   TouchTheGroundParticles: []
   TouchTheGroundSfx: []
+  isMoving: 1
 --- !u!114 &114079283237680582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10346,6 +10348,23 @@ MonoBehaviour:
   EdgePrecision: 3
   EdgeThreshold: 0.5
   VisionMeshFilter: {fileID: 33599144827507420}
+--- !u!114 &5825355385229830860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498750440386690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323093f4d59350d429779054132fcbd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 95179347267985190}
+  characterMovement: {fileID: 114184457958384624}
+  isAttacking: 0
+  horizontalInput: 0
+  verticalInput: 0
 --- !u!1 &1561075265052736
 GameObject:
   m_ObjectHideFlags: 0
@@ -15284,7 +15303,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 47421343
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0

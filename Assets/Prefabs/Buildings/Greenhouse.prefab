@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1603220759
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ae753fd015c1a6e46a8c059aff15b10a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,7 +121,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.453125, y: 6.6796875}
+    oldSize: {x: 7.172932, y: 6.428571}
     newSize: {x: 7.453125, y: 6.6796875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -770,6 +770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4885485307242618083}
+  - component: {fileID: 7671347522991865064}
   m_Layer: 0
   m_Name: Greenhouse
   m_TagString: Untagged
@@ -793,3 +794,15 @@ Transform:
   - {fileID: 7397677962202113777}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &7671347522991865064
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5550615279039923242}
+  m_Enabled: 1
+  m_SortingLayerID: 1603220759
+  m_SortingLayer: 4
+  m_SortingOrder: 15
+  m_SortAtRoot: 0
