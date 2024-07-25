@@ -196,7 +196,7 @@ MonoBehaviour:
   UseDefaultMecanim: 1
   RunAnimatorSanityChecks: 0
   DisableAnimatorLogs: 1
-  CharacterModel: {fileID: 1729245664140740}
+  CharacterModel: {fileID: 1170912388798894}
   CharacterHealth: {fileID: 114770430199677850}
   SendStateChangeEvents: 1
   AdditionalAbilityNodes: []
@@ -262,7 +262,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 6
+  WalkSpeed: 2.5
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -851,7 +851,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5625, y: 0.65, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4200934422455338}
@@ -1045,8 +1045,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.091274075, g: 0.08735315, b: 0.122641504, a: 1}
-      maxColor: {r: 0.26666668, g: 0.2509804, b: 0.3921569, a: 1}
+      minColor: {r: 0, g: 0.735849, b: 0.14457911, a: 1}
+      maxColor: {r: 0.097588114, g: 0.4811321, b: 0.097588114, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1110,7 +1110,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5892,7 +5892,7 @@ SpriteRenderer:
   m_SortingLayerID: 47421343
   m_SortingLayer: 5
   m_SortingOrder: 10
-  m_Sprite: {fileID: 4213319169435893366, guid: 8fb7e8f491159894db0a07bdb1c838bd,
+  m_Sprite: {fileID: -387061471815523496, guid: c80534141f80d28489b1ef92f8ff7d99,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5903,7 +5903,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &95305558589551692
 Animator:
   serializedVersion: 5
@@ -6148,7 +6148,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0, g: 0.4056604, b: 0.025467804, a: 1}
+      maxColor: {r: 0, g: 1, b: 0.058252335, a: 0.3529412}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
