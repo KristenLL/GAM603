@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4627644fa4929f64a92e4d63b3a1a95e, type: 3}
+  m_Name: KoalaDungeonLootTable 1
+  m_EditorClassIdentifier: 
+  LootTable:
+    ObjectsToLoot:
+    - Loot: {fileID: 1136408400419902, guid: 89f9b32eb17cd7747a65e7e4932f4e32, type: 3}
+      Weight: 2
+      ChancePercentage: 66.666664
+    - Loot: {fileID: 1489628332787134, guid: b61a677da86766b489b3aff3c1c6ccb4, type: 3}
+      Weight: 1
+      ChancePercentage: 33.333332
+    WeightsTotal: 3

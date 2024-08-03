@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3659484902852548977}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01, y: -0.28, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65,7 +65,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.01815176, y: -0.24283946}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.2451706, y: 1.1125958}
   m_EdgeRadius: 0
 --- !u!114 &8848586156598272498
 MonoBehaviour:
@@ -114,8 +114,8 @@ MonoBehaviour:
   UseVisualPrompt: 1
   ButtonPromptPrefab: {fileID: 114767332097364426, guid: bb1fc0f1f16f31248b9b4d80aa795609,
     type: 3}
-  ButtonPromptText: A
-  ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
+  ButtonPromptText: E
+  ButtonPromptColor: {r: 0.8912744, g: 0.5235849, b: 1, a: 1}
   ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
   AlwaysShowPrompt: 0
   ShowPromptWhenColliding: 1
@@ -137,8 +137,8 @@ MonoBehaviour:
       m_Calls: []
   DialogueBoxPrefab: {fileID: 2653640297749183962, guid: d8d49b9bb5d5716498bc4713939342f5,
     type: 3}
-  TextBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-  TextColor: {r: 1, g: 1, b: 1, a: 1}
+  TextBackgroundColor: {r: 0.20513918, g: 0.0731132, b: 0.2924528, a: 0.84313726}
+  TextColor: {r: 1, g: 1, b: 1, a: 0.9137255}
   TextFont: {fileID: 12800000, guid: 8148e9febcd71694a8a18085f2ed966d, type: 3}
   TextSize: 40
   Alignment: 4
@@ -152,9 +152,8 @@ MonoBehaviour:
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
-  - DialogueLine: Hello little koala!
-  - DialogueLine: It's dangerous to go alone.
-  - DialogueLine: So I hope you'll be ok!
+  - DialogueLine: dab on it wagwan
+  - DialogueLine: 
 --- !u!1 &8738422907789904054
 GameObject:
   m_ObjectHideFlags: 0

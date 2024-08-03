@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 114977332840471576}
   - component: {fileID: 114544991609150994}
   - component: {fileID: 5296060867346013264}
+  - component: {fileID: 7878774743619227846}
   m_Layer: 13
   m_Name: Green Slime
   m_TagString: Enemy
@@ -46,7 +47,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 29.31034, y: -42.275494, z: -100}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4762210631035944}
@@ -68,7 +69,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.67
   m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -176,7 +177,7 @@ MonoBehaviour:
     m_Bits: 32768
   ObstaclesLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &114443426445346948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +197,7 @@ MonoBehaviour:
   UseDefaultMecanim: 1
   RunAnimatorSanityChecks: 0
   DisableAnimatorLogs: 1
-  CharacterModel: {fileID: 1170912388798894}
+  CharacterModel: {fileID: 1729245664140740}
   CharacterHealth: {fileID: 114770430199677850}
   SendStateChangeEvents: 1
   AdditionalAbilityNodes: []
@@ -262,7 +263,7 @@ MonoBehaviour:
   InputAuthorized: 1
   AnalogInput: 0
   ScriptDrivenInput: 0
-  WalkSpeed: 2.5
+  WalkSpeed: 3.3
   ShouldSetMovement: 1
   IdleThreshold: 0.05
   Acceleration: 10
@@ -375,8 +376,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 50
+  MaximumHealth: 50
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 7739972951365003282}
@@ -384,7 +385,7 @@ MonoBehaviour:
   PreventTakeSelfDamage: 0
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
-  KnockbackForceMultiplier: 1
+  KnockbackForceMultiplier: 0.5
   DestroyOnDeath: 0
   DelayBeforeDestruction: 0
   PointsWhenDestroyed: 0
@@ -476,7 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: 
-  Radius: 5
+  Radius: 6
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
   TargetLayer:
     serializedVersion: 2
@@ -487,7 +488,7 @@ MonoBehaviour:
     m_Bits: 256
   ObstaclesDetectionMode: 1
   CanTargetSelf: 0
-  TargetCheckFrequency: 1
+  TargetCheckFrequency: 0.2
   OverlapMaximum: 10
 --- !u!114 &114044659299794826
 MonoBehaviour:
@@ -767,7 +768,8 @@ MonoBehaviour:
   FollowTargetMode: 2
   NestDrawnHealthBar: 0
   Billboard: 0
-  InstantiatedOnDeath: {fileID: 0}
+  InstantiatedOnDeath: {fileID: 1136408400419902, guid: bd2aa53b0a340ee479aeca4023ca9b0a,
+    type: 3}
   HealthBarOffset: {x: 0, y: 2.5, z: 0}
   AlwaysVisible: 0
   DisplayDurationOnHit: 1
@@ -792,6 +794,95 @@ MonoBehaviour:
   Label: 
   AfterTimeMin: 2
   AfterTimeMax: 1
+--- !u!114 &7878774743619227846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170912388798894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9bf1ac07f3659498e89157301c9746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LootMode: 2
+  GameObjectToLoot: {fileID: 0}
+  LootTable:
+    ObjectsToLoot:
+    - Loot: {fileID: 1136408400419902, guid: bd2aa53b0a340ee479aeca4023ca9b0a, type: 3}
+      Weight: 3
+      ChancePercentage: 0
+    - Loot: {fileID: 1489628332787134, guid: b61a677da86766b489b3aff3c1c6ccb4, type: 3}
+      Weight: 1
+      ChancePercentage: 0
+    WeightsTotal: 0
+  LootTableSO: {fileID: 11400000, guid: 89e9cf68f24a4ff4f879b929bfd0550b, type: 2}
+  SpawnLootOnDeath: 1
+  SpawnLootOnDamage: 0
+  PoolLoot: 0
+  PoolSize: 20
+  MutualizedPoolName: 
+  CanSpawn: 1
+  Delay: 0
+  Quantity: {x: 1, y: 1}
+  SpawnProperties:
+    Shape: 0
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
+    MinimumSphereRadius: 1
+    MaximumSphereRadius: 2
+    MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
+    MaximumCubeBaseSize: {x: 2, y: 2, z: 2}
+    MinimumNormalAxisOffset: 0
+    MaximumNormalAxisOffset: 0
+    UseNormalAxisOffsetCurve: 0
+    NormalOffsetCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    NormalOffsetCurveRemapZero: 0
+    NormalOffsetCurveRemapOne: 1
+    InvertNormalOffsetCurve: 0
+    MinimumRotation: {x: 0, y: 0, z: 0}
+    MaximumRotation: {x: 0, y: 0, z: 0}
+    MinimumScale: {x: 1, y: 1, z: 1}
+    MaximumScale: {x: 1, y: 1, z: 1}
+  LimitedLootQuantity: 1
+  MaximumQuantity: 100
+  RemainingQuantity: 100
+  AvoidObstacles: 0
+  DimensionMode: 0
+  AvoidObstaclesLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  AvoidRadius: 0.25
+  MaxAvoidAttempts: 5
+  LootFeedback: {fileID: 0}
+  DrawGizmos: 0
+  GizmosQuantity: 1000
+  GizmosColor: {r: 0.827451, g: 0.827451, b: 0.827451, a: 1}
+  GimosSize: 1
+  SpawnLootButton: 0
 --- !u!1 &1204245833213918
 GameObject:
   m_ObjectHideFlags: 0
@@ -5914,7 +6005,7 @@ Animator:
   m_GameObject: {fileID: 1729245664140740}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: d7409d88ace7ca245b60e0240311dba4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 91b83942a92301949b1e0d318f032906, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -11295,7 +11386,7 @@ MonoBehaviour:
         RemapRangeFalloff: {x: 0, y: 1}
         Owner: {fileID: 7663184633764920224}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: 51f2769dc716d1148844990d0d22ecd9, type: 3}
+        Sfx: {fileID: 8300000, guid: 4fb0c4caea93e724982abebb4a341da2, type: 3}
         RandomSfx: []
         TestPlayButton:
           ButtonText: Debug Play Sound

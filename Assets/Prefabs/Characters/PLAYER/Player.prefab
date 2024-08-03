@@ -9948,8 +9948,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: -0.15393922}
-  m_Size: {x: 0.51708317, y: 0.71515757}
+  m_Offset: {x: 0.0032978058, y: -0.16383362}
+  m_Size: {x: 0.47750473, y: 0.69536877}
   m_Direction: 0
 --- !u!210 &210286107803106362
 SortingGroup:
@@ -10287,8 +10287,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 100
+  MaximumHealth: 100
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 5423255612875023378}
@@ -10296,11 +10296,11 @@ MonoBehaviour:
   PreventTakeSelfDamage: 0
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
-  KnockbackForceMultiplier: 1
-  DestroyOnDeath: 0
-  DelayBeforeDestruction: 0
+  KnockbackForceMultiplier: 0.5
+  DestroyOnDeath: 1
+  DelayBeforeDestruction: 3
   PointsWhenDestroyed: 0
-  RespawnAtInitialLocation: 0
+  RespawnAtInitialLocation: 1
   DisableControllerOnDeath: 1
   DisableModelOnDeath: 1
   DisableCollisionsOnDeath: 0
@@ -10355,7 +10355,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498750440386690}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 323093f4d59350d429779054132fcbd3, type: 3}
   m_Name: 
